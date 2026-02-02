@@ -54,10 +54,10 @@ To run this project locally:
 
 ```bash
 # Clone the repo
-git clone repo-url
+git clone https://github.com/estefiot99/melissa-dev
 
 # Navigate to the project folder
-cd melissa-portfolio
+cd melissa-dev
 
 # Install dependencies
 npm install
