@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useRef } from 'react';
 import { useInViewAction } from '../../hooks/useInViewAction';
 import './tech-stack.less';

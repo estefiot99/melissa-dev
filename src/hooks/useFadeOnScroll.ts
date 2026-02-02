@@ -12,13 +12,12 @@ export function useFadeOnScroll(
           if (entry.isIntersecting) {
             const children = Array.from(entry.target.children) as HTMLElement[];
 
-            // Apply stagger
             children.forEach((child, i) => {
               child.style.transitionDelay = `${i * stagger}s`;
             });
 
             entry.target.classList.add('visible');
-            obs.unobserve(entry.target); // observe once
+            obs.unobserve(entry.target);
           }
         });
       },

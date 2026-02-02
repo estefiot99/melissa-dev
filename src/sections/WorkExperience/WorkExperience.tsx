@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useInViewAction } from '../../hooks/useInViewAction';
 import './work-experience.less';
 import data from '../../assets/data/experience.json';
@@ -48,19 +48,17 @@ function WorkExperience() {
     const handleScroll = () => {
       if (!companiesListRef.current) return;
 
-      // Use bottom of companies-list as reference
       const referenceBottom =
         companiesListRef.current.getBoundingClientRect().bottom;
 
       let currentActive: string | null = null;
 
-      positionsByCompany.forEach(([slug, positions]) => {
+      positionsByCompany.forEach(([slug]) => {
         const timelineEl = document.querySelector(`.timeline .company.${slug}`);
         if (!timelineEl) return;
 
         const elRect = timelineEl.getBoundingClientRect();
 
-        // Check if the bottom of companies-list has reached the top of the timeline section
         if (referenceBottom >= elRect.top && referenceBottom < elRect.bottom) {
           currentActive = slug;
         }

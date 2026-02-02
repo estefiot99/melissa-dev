@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import FactsCarousel from '../../components/FactsCarousel/FactsCarousel';
 import { useInViewAction } from '../../hooks/useInViewAction';
 import Confetti from 'react-confetti';

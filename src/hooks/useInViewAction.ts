@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
 
 interface UseInViewActionOptions {
-  rootMargin?: string; // Offset from viewport
-  threshold?: number; // Percentage of element visible to trigger
-  stagger?: number; // Delay for child elements
+  rootMargin?: string;
+  threshold?: number;
+  stagger?: number;
 }
 
 export function useInViewAction<T extends HTMLElement>(
-  ref: React.RefObject<T | null>, // The element to observe
-  action: (el: T) => void, // What happens when it enters view
+  ref: React.RefObject<T | null>,
+  action: (el: T) => void,
   {
     rootMargin = '0px',
     threshold = 0.15,
@@ -16,7 +16,7 @@ export function useInViewAction<T extends HTMLElement>(
   }: UseInViewActionOptions = {}
 ) {
   useEffect(() => {
-    if (!ref.current) return; // Make sure element exists
+    if (!ref.current) return;
 
     const observer = new IntersectionObserver(
       (entries, obs) => {
@@ -24,21 +24,20 @@ export function useInViewAction<T extends HTMLElement>(
           if (entry.isIntersecting) {
             const target = entry.target as T;
 
-            // Apply stagger to children if needed
             Array.from(target.children).forEach((child, i) => {
               (child as HTMLElement).style.transitionDelay = `${i * stagger}s`;
             });
 
-            action(target); // Run the user-defined action
-            obs.unobserve(target); // Stop observing (optional, one-time trigger)
+            action(target);
+            obs.unobserve(target);
           }
         });
       },
       { root: null, rootMargin, threshold }
     );
 
-    observer.observe(ref.current); // Start observing
+    observer.observe(ref.current);
 
-    return () => observer.disconnect(); // Cleanup
+    return () => observer.disconnect();
   }, [ref, action, rootMargin, threshold, stagger]);
 }

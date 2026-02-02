@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import ProjectExpandableCard from '../../components/ProjectExpandableCard/ProjectExpandableCard';
 import { useInViewAction } from '../../hooks/useInViewAction';
-import { GithubIcon, ExternalLink } from 'lucide-react';
+import { GithubIcon } from 'lucide-react';
 import './products.less';
 import data from '../../assets/data/projects.json';
 

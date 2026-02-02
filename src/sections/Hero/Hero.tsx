@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import memoji from '/images/memoji-peace.png';
 import './hero.less';
 

@@ -7,7 +7,6 @@ import WorkExperience from './sections/WorkExperience/WorkExperience';
 import Footer from './sections/Footer/Footer';
 
 function App() {
-  // useFadeOnScroll('0px', 0.15, 100);
   return (
     <main>
       <Hero></Hero>
