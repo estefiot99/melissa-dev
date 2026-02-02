@@ -54,7 +54,7 @@ To run this project locally:
 
 ```bash
 # Clone the repo
-git clone https://github.com/estefiot99/melissa-dev
+git clone https://github.com/estefiot99/melissa-dev.git
 
 # Navigate to the project folder
 cd melissa-dev
