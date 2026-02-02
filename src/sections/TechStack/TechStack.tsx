@@ -70,14 +70,6 @@ function TechStack() {
               </div>
             </div>
           ))}
-          <div className="subcategory">
-            <p>Programming:</p>
-            <div className="d-flex flex-wrap">
-              <div className="stack-item">
-                <span>React.js</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
