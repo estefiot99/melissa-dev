@@ -21,7 +21,7 @@ export default function FactsCarousel() {
       <SwiperSlide>
         <div className="card">
           <div className="fact">
-            <img src={'/src/assets/images/emojis/coffee.png'} alt="" />
+            <img src={'/images/emojis/coffee.png'} alt="" />
             <p>
               Powered by <span>coffee</span> and good playlists.
             </p>
@@ -31,7 +31,7 @@ export default function FactsCarousel() {
       <SwiperSlide>
         <div className="card">
           <div className="fact">
-            <img src={'/src/assets/images/emojis/soccer.png'} alt="" />
+            <img src={'/images/emojis/soccer.png'} alt="" />
             <p>
               Big soccer fan and lifelong supporter of <span>Barcelona</span>.
             </p>
@@ -41,7 +41,7 @@ export default function FactsCarousel() {
       <SwiperSlide>
         <div className="card">
           <div className="fact">
-            <img src={'/src/assets/images/emojis/plane.png'} alt="" />
+            <img src={'/images/emojis/plane.png'} alt="" />
             <p>
               I love <span>traveling</span> and exploring new places
             </p>
