@@ -1,0 +1,22 @@
+@import '../../styles/variables.less';
+
+.footer {
+  background-color: @primary-color;
+  font-weight: 500;
+  .contact-links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-bottom: 48px;
+
+    @media (max-width: @mobile) {
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    a {
+      color: @primary-text;
+      text-decoration: underline;
+    }
+  }
+}

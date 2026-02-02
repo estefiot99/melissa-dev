@@ -1,0 +1,83 @@
+@import '../../styles/variables.less';
+
+section.hero {
+  background-color: @primary-color;
+  color: @primary-text;
+
+  .hero-text {
+    width: 50%;
+    @media (max-width: @tablet) {
+      width: 100%;
+    }
+    .welcome {
+      font-size: 54px;
+      font-weight: 700;
+      margin-bottom: 12px;
+
+      @media (max-width: @tablet) {
+        font-size: 32px;
+      }
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+
+      @media (max-width: @small-laptop) {
+        font-size: 22px;
+      }
+
+      @media (max-width: @mobile) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+  }
+
+  .illustration {
+    width: 50%;
+    @media (max-width: @tablet) {
+      width: 100%;
+    }
+    margin-bottom: 24px;
+    .memoji {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @media (max-width: @tablet) {
+        zoom: 0.8;
+      }
+
+      h2 {
+        font-size: 16px;
+        font-weight: 600;
+        position: absolute;
+        top: 0;
+      }
+
+      .circle-bg {
+        position: relative;
+        background-color: @tertiary-color;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        svg {
+          overflow: visible;
+          font-weight: 500;
+        }
+      }
+
+      img {
+        position: absolute;
+        width: 290px;
+        top: 18px;
+        left: 50px;
+      }
+    }
+  }
+}

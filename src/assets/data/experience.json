@@ -1,0 +1,82 @@
+[
+  {
+    "company": "Zeeto",
+    "company_slug": "zeeto",
+    "role": "Senior Front End Engineer",
+    "location": "San Diego, USA",
+    "model": "Remote",
+    "date": "Oct 2024 - Nov 2025",
+    "responsibilities": [
+      "Developed and maintained scalable front-end features within a multi-service SaaS platform serving thousands of users, ensuring performance and stability using React, JavaScript, Redux, and Bootstrap.",
+      "Contributed to a staged rollout system that managed feature visibility across environments and user types, using feature flags, Git workflows, and comprehensive QA pipelines to reduce deployment risk.",
+      "Led UI implementation efforts with pixel-perfect, responsive design, collaborating cross-functionally with Product, Design, and Backend teams to ensure seamless user flows and high-impact interactions.",
+      "Applied Test-Driven Development, unit and integration testing, and rigorous debugging practices to deliver reliable components, significantly reducing production bugs and improving release confidence."
+    ]
+  },
+  {
+    "company": "dgmx tech",
+    "company_slug": "dgmx-tech",
+    "role": "Front End Head",
+    "location": "Mexico City, MX",
+    "model": "Remote",
+    "date": "Dec 2022 - Sep 2024",
+    "responsibilities": [
+      "Promoted to lead the Front-End team after an exceptional first-year performance; spearheaded challenging projects and showcased advanced problem-solving abilities.",
+      "Lead team members, overseeing educational resources and guiding ongoing learning initiatives to foster professional growth, strategizing aligned efforts through cross-team meetings, driving collaboration and efficiency.",
+      "Implemented Atomic Design principles on midsize and large projects, creating reusable components aligned with unit testing and functional testing to ensure high-quality code delivery with the latest trends and best practices."
+    ]
+  },
+  {
+    "company": "dgmx tech",
+    "company_slug": "dgmx-tech",
+    "role": "Senior Front End Developer",
+    "location": "Mexico City, MX",
+    "model": "Remote",
+    "date": "Dec 2021 - Dec 2022",
+    "responsibilities": [
+      "Designed and prototyped mobile apps and websites using Figma, assuming key UX/UI Designer responsibilities.",
+      "Developed successful React Native apps with Expo and JavaScript, available on both the App Store and Play Store.",
+      "Led numerous React.js projects, utilizing Typescript and JavaScript, integrating AWS-powered microservices, and implementing meticulous version control practices, seamlessly integrating RESTful APIs and optimizing performance.",
+      "Delivered expert front-end support on Webflow as an outsourced employee for an international company, collaborating with teams across EMEA, APAC, and LATAM."
+    ]
+  },
+  {
+    "company": "Escarlata",
+    "company_slug": "escarlata",
+    "role": "Full Stack Software Engineer",
+    "location": "Culiacan, MX",
+    "model": "On-site",
+    "date": "Nov 2020 - Nov 2021",
+    "responsibilities": [
+      "Independently developed a custom Shopify e-commerce site using Liquid, collaborating with the marketing team to coordinate the launch, resulting in a 40% increase in online sales.",
+      "Designed and prototyped a responsive e-commerce experience in Figma, applying UX/UI best practices to reflect the brand’s identity, and created a digital brand book to ensure cohesive design across web and social media platforms.",
+      "Developed a scalable internal system as a full-stack engineer, utilizing Firebase, JavaScript, PHP, HTML, and CSS. The system supports live inventory reporting, client interface, shipping logic, and support, remaining in active use."
+    ]
+  },
+  {
+    "company": "Geeklopers",
+    "company_slug": "geeklopers",
+    "role": "Lead Web Developer",
+    "location": "Culiacan, MX",
+    "model": "On-site",
+    "date": "Feb 2019 - Sep 2020",
+    "responsibilities": [
+      "Promoted to lead the Web Development team, leveraging three years of outstanding performance as a Web Developer.",
+      "Mentored 3 junior developers, reducing onboarding time by 50% and improving team delivery velocity through regular code reviews and shared learning sessions while developing and supporting numerous React.js applications.",
+      "Actively collaborated with the internal backend team to enhance and resolve product-related issues within Laravel-based monolithic applications, ensuring seamless API and REST functionalities integration into user interfaces."
+    ]
+  },
+  {
+    "company": "Geeklopers",
+    "company_slug": "geeklopers",
+    "role": "Web Developer",
+    "location": "Culiacan, MX",
+    "model": "On-site",
+    "date": "Mar 2016 - Feb 2019",
+    "responsibilities": [
+      "Executed assignments using web applications, scripts, and programming languages, such as HTML, CSS, and JavaScript.",
+      "Coordinated efforts across departments, providing feedback to UX Designers across multiple projects and engaging directly with clients to understand requirements and define features.",
+      "Developed user interfaces for websites within the Laravel framework, employing the Blade templating engine and PHP to ensure optimal performance, as well as demonstrating and producing software solutions and web applications."
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+@import '../../styles/variables.less';
+
+section.work-experience {
+  .experience {
+    display: flex;
+
+    .sidebar {
+      margin-right: 24px;
+      @media (max-width: @mobile) {
+        display: none;
+      }
+
+      .companies-list {
+        position: sticky;
+        top: calc(50vh - 100px);
+      }
+
+      .company-name {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        text-transform: lowercase;
+
+        span {
+          padding: 2px 4px;
+          margin-left: -4px;
+        }
+
+        .highlight {
+          padding: 2px 4px;
+          margin-left: -4px;
+        }
+      }
+    }
+
+    .timeline {
+      border-top: solid @text-color 6px;
+      border-left: solid @text-color 6px;
+
+      .company {
+        border-bottom: solid 4px @text-color;
+
+        .position {
+          position: relative;
+          padding: 20px 24px;
+          padding-bottom: 16px;
+
+          .position-tick {
+            background-color: @tertiary-color;
+            height: 12px;
+            width: 24px;
+            position: absolute;
+            left: -16px;
+            top: 27px;
+          }
+
+          .title {
+            font-size: 20px;
+            margin-bottom: 4px;
+            font-weight: 700;
+          }
+
+          .details {
+            font-weight: 500;
+            font-style: italic;
+            margin-bottom: 12px;
+          }
+
+          ul {
+            line-height: 24px;
+            padding-left: 20px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

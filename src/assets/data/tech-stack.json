@@ -1,0 +1,139 @@
+[
+  {
+    "categoryName": "All",
+    "subcategories": [
+      {
+        "name": "Programming",
+        "stack": [
+          "React.js",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "React Native",
+          "Java",
+          "PHP",
+          "SQL",
+          "Typescript",
+          "Swift",
+          "Python",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Tools and Environments",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "Laravel",
+          "PostgreSQL",
+          "Angular.js",
+          "AWS",
+          "Google Cloud Services",
+          "GitHub",
+          "Swagger",
+          "Webflow",
+          "Figma",
+          "Adobe XD",
+          "Photoshop",
+          "SEO Optimization",
+          "Shopify",
+          "Jenkins",
+          "Tableau",
+          "Vite",
+          "Jest",
+          "Docker",
+          "Kubernetes",
+          "Express"
+        ]
+      },
+      {
+        "name": "Databases",
+        "stack": ["MySQL", "NoSQL", "GraphQL", "Firebase"]
+      },
+      {
+        "name": "Methodologies",
+        "stack": ["Agile Model", "DevOps", "CI/CD pipelines", "Scrum"]
+      }
+    ]
+  },
+  {
+    "categoryName": "Mastered",
+    "subcategories": [
+      {
+        "name": "Programming",
+        "stack": [
+          "React.js",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "React Native",
+          "SQL",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "Tools and Environments",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "PostgreSQL",
+          "AWS",
+          "GitHub",
+          "Swagger",
+          "Webflow",
+          "Figma",
+          "Shopify",
+          "Jenkins",
+          "Vite",
+          "Jest"
+        ]
+      },
+      {
+        "name": "Databases",
+        "stack": ["MySQL", "NoSQL", "Firebase"]
+      },
+      {
+        "name": "Methodologies",
+        "stack": ["Agile Model", "DevOps", "CI/CD pipelines", "Scrum"]
+      }
+    ]
+  },
+  {
+    "categoryName": "Favorites",
+    "subcategories": [
+      {
+        "name": "Programming",
+        "stack": [
+          "React.js",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Typescript",
+          "Swift"
+        ]
+      },
+      {
+        "name": "Tools and Environments",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "AWS",
+          "GitHub",
+          "Swagger",
+          "Figma",
+          "Webflow",
+          "Shopify",
+          "Jest"
+        ]
+      },
+      {
+        "name": "Databases",
+        "stack": ["MySQL", "NoSQL", "Firebase"]
+      },
+      {
+        "name": "Methodologies",
+        "stack": ["Agile Model", "DevOps", "CI/CD pipelines", "Scrum"]
+      }
+    ]
+  }
+]

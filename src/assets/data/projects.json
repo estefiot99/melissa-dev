@@ -1,0 +1,77 @@
+[
+  {
+    "category": "public",
+    "title": "Botanical Garden Culiacan",
+    "image": "botanico.png",
+    "url": "https://botanicoculiacan.org/",
+    "tags": ["Website", "CRM", "Payment Gateway"],
+    "role": "Full Stack Developer",
+    "stack": [
+      "blade",
+      "html",
+      "css",
+      "javascript",
+      "angular",
+      "laravel",
+      "php"
+    ],
+    "goal": "Modernize the public website and build a donation and donor-management system to support fundraising and operations.",
+    "description": "Led the development of a full-stack web platform for a city botanical garden, modernizing a static site into an interactive product with a donation portal and donor management system. Worked with external designers, stakeholders, analysts, and engineers to deliver a scalable UX, front end, and back end for real users, payments, and operations."
+  },
+  {
+    "category": "public",
+    "title": "Escarlata Jewelry",
+    "image": "escarlata.png",
+    "url": "https://escarlatamx.com/",
+    "tags": ["Website", "Shopify", "Ecommerce"],
+    "role": "UI/UX | Front End Developer",
+    "stack": ["shopify", "liquid", "javascript", "html", "css", "figma"],
+    "goal": "Rebuild a fast-growing fashion brand’s digital presence and turn a large social audience into online revenue.",
+    "description": "Rebuilt Escarlata’s digital brand and Shopify store for a fashion label with over 64,000 Instagram followers, transforming its online presence into a modern, conversion-focused e-commerce experience. Led the design and development of a custom Shopify theme with Liquid and front-end code, supporting product launches and marketing campaigns. Following the relaunch, online sales increased by approximately 40%, creating a more scalable and reliable channel for the brand’s growth."
+  },
+  {
+    "category": "public",
+    "title": "Escarlata Jewelry - Platform",
+    "image": "escarlata-platform.png",
+    "url": null,
+    "tags": ["Platform", "CRM", "OMS"],
+    "role": "Full Stack Developer",
+    "stack": ["html", "css", "javascript", "laravel", "php", "firebase"],
+    "goal": "Build a scalable platform to manage orders, different inventories and shipping, enabling the business to streamline operations and improve efficiency.",
+    "description": "Designed and developed Escarlata’s entire internal operations platform single-handedly, creating a scalable system to manage orders, multiple inventories, and shipping workflows. Implemented real-time data updates, operational automation, and secure management of business-critical information. The platform streamlined daily operations, improved accuracy, and enabled the business to handle growing order volumes efficiently."
+  },
+  {
+    "category": "private",
+    "title": "Finance Platform",
+    "image": "botanico.png",
+    "tags": ["Platform", "CRM", "Real-Time Data"],
+    "role": "Front End Developer",
+    "stack": ["react.js", "typescript", "less", "aws", "dynamodb", "nosql"],
+    "goal": "Build a reliable and scalable front-end experience for a financial platform that mirrors investor activity from a brokerage service and executes those strategies at scale using users’ own capital.",
+    "description": "Led the front end development of a platform focused on replicating investor trading behavior through secure brokerage integrations. Built scalable, high-performance user interfaces to visualize complex financial data, ensure accuracy, and support real-time interactions. Emphasized reliability, clarity, and performance to meet the demands of a high-stakes financial environment while adhering to strict privacy and compliance constraints."
+  },
+  {
+    "category": "private",
+    "title": "Zeeto",
+    "image": "botanico.png",
+    "tags": ["Platform", "SaaS"],
+    "role": "Full Stack Developer",
+    "stack": ["react.js", "javascript", "sass", "java", "express", "node.js"],
+    "goal": "Deliver a high-performance, scalable front-end experience for a self-serve lead-generation platform used by advertisers and publishers to manage campaigns, audience targeting, and analytics efficiently.",
+    "description": "Worked on the front-end implementation of a data-intensive product that helps businesses generate and manage high-quality leads through interactive workflows and real-time analytics. Modernized legacy components through iterative testing to improve performance, responsiveness, and user experience, while supporting large datasets and complex user flows. The work contributed to a more efficient, reliable platform used daily by hundreds of users to manage customer acquisition and monetization."
+  },
+  {
+    "category": "demo",
+    "title": "Developer Blog",
+    "image": "dev-blog.png",
+    "github": "https://github.com/estefiot99/Blog",
+    "description": "A lightweight blog application built as a technical test, designed for writing, managing, and sharing content."
+  },
+  {
+    "category": "demo",
+    "title": "Personal Portfolio",
+    "image": "portfolio.png",
+    "github": "#",
+    "description": "The site you’re exploring right now! A  space to present my work and experience. A project that evolves with me over time."
+  }
+]
