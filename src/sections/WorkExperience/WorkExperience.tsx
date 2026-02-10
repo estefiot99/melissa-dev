@@ -103,7 +103,9 @@ function WorkExperience() {
                 {positions.map((position, index) => (
                   <div className="position" key={`position-${index}`}>
                     <div className="position-tick"></div>
-                    <h5 className="title">{position.company}</h5>
+                    <h5 className="title">
+                      {position.role} · {position.company}
+                    </h5>
                     <p className="details">
                       <span className="time">{position.date}</span> |{' '}
                       <span className="model">{position.model}</span> |{' '}
